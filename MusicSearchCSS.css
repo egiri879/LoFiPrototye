@@ -1,0 +1,41 @@
+td{
+  border-color: black;
+  border-width: 10000000000000px;
+  border: black;
+  background-color: rgb(0,128,255);
+  border-style: inset;
+  height: 40px;
+  font-size: 40px;
+
+}
+
+h1{
+  color: lightblue;
+  background-color: #6b8c21;
+  text-align: center;
+}
+
+
+td:hover{
+  background-color: rgb(255,127,0);
+}
+
+
+#ScoreScroll{
+  overflow-y: scroll;
+
+  height: 500px;
+  border-style: inset;
+}
+
+body{
+  background-color: rgb(157,190,71)
+}
+
+p{
+  font-size: 20px;
+}
+
+div{
+  background-color: rgb(157,190,71);
+}

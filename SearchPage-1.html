@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  <title>MusicSearch</title>
+  <link rel = 'stylesheet' href = 'MusicSearchCSS.css'>
+
+  <script type="text/javascript">
+      var BarVisits = 0;
+      function addBarVisit(x){
+      BarVisits = BarVisits + (parseInt(x));
+      document.getElementById('out').innerHTML = BarVisits;
+      }
+
+
+          var RomVisits = 0;
+          function addRomVisit(x){
+          RomVisits = RomVisits + (parseInt(x));
+          document.getElementById('out1').innerHTML = RomVisits;
+          }
+
+
+              var ClassVisits = 0;
+              function addClassVisit(x){
+              ClassVisits = ClassVisits + (parseInt(x));
+              document.getElementById('out2').innerHTML = ClassVisits;
+
+
+                  var ContempVisits = 0;
+                  function addContempVisit(x){
+                  ContempVisits = ContempVisits + (parseInt(x));
+                  document.getElementById('out3').innerHTML = ContempVisits;
+                  }
+
+            }
+          </script>
+
+
+
+</head>
+
+<body>
+
+  <h1>MusicSearch</h1>
+
+    <p>Welcome to MusicSearch, your new favorite tool for finding pieces of classical music.</p>
+
+    <p>For pop songs, you can search lyrics. For classical music, you have this.</p>
+
+    <p>Can't find the name of a piece, well just get started!</p>
+
+
+<center>
+    <p>First, identify which era of classical music to which you think that your piece belongs.</p>
+
+    <table>
+        <tr>
+          <td onclick='window.location.href = "BaroquePage.html"' onclick = 'addBarVisit(1)'>Baroque</td>
+          <td onclick='window.location.href = "RomanticPage.html"'>Romantic</td>
+        </tr>
+
+        <tr>
+          <td onclick='window.location.href = "ClassicalPage.html"'>Classical</td>
+          <td onclick='window.location.href = "ContemporaryPage.html"'>Contemporary</td>
+        </tr>
+
+
+    </table>
+    <span id = 'out'></span>
+</center>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
